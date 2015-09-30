@@ -1,4 +1,4 @@
 algo
 ====
 
-Algorithms written in go
+Algorithms refresher

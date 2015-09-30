@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ezhilvendhan/algo/sort"
+	"github.com/ezhilvendhan/algo/golang/sort"
 	"github.com/ezhilvendhan/goutil/conv"
 	"flag"
 	"strings"
