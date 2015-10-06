@@ -1,6 +1,16 @@
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 public class BFS {
     public static void main(String[] args) {
-        int[] inp = new int[]{1,2,232,1,-34534,221,876,-11,34,712324,12212,-11,0, -0, 24353};
-        System.out.println();
+        Integer[][] inp = new Integer[][]{
+                new Integer[]{1,2}, new Integer[]{2}, new Integer[]{0, 3}, new Integer[]{3}};
+        System.out.println(bfs(inp, 1));
+    }
+
+    public static List<Integer> bfs(Integer[][] inp, int start) {
+        List<Integer> path = new LinkedList<>();
+        return path;
     }
 }
