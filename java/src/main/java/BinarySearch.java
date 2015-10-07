@@ -7,7 +7,7 @@ public class BinarySearch {
         System.out.println("Index: "+ result+" - Value: "+ inpSorted[result]);
     }
 
-    private static int binS(int[] inp, int toSearch) {
+    public static int binS(int[] inp, int toSearch) {
         return binS(inp, 0, inp.length - 1, toSearch);
     }
 
